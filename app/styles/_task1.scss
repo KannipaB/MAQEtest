@@ -1,0 +1,47 @@
+.maqe {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color: #60C4E6;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px #ccc;
+}
+
+.maqe-inner {
+    border-radius: 20px;
+    border: 10px #fff solid;
+    padding: 15px;
+    position: relative;
+    background: linear-gradient(#60C4E6, #98D5D1);
+    &__trans {
+        padding: 30%;
+        margin: 20%;
+        background-color: #fff;
+        opacity: .2;
+    }
+    &__cube {
+        position: absolute;
+        top: 0;
+        left: 0;
+        ul {
+            padding: 0 !important;
+            margin: 0;
+            li {
+                width: 75px;
+                height: 75px;
+                list-style: none;
+                text-align: center;
+                margin: 45px 0 0 45px !important;
+                padding: 10%;
+                background-color: #fff;
+                font-size: 60px;
+                display: inline-block !important;
+                box-shadow: inset 2px 2px 20px #888;
+                text-shadow: 1px 1px #888;
+                color: #60C4E6;
+                border-radius: 4px;
+            }
+        }
+    }
+}
